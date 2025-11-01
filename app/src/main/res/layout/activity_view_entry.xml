@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/viewTitle" android:textSize="20sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/viewDate" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/viewLocation" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/viewImage" android:layout_width="match_parent" android:layout_height="200dp" android:scaleType="centerCrop"/>
+    <TextView android:id="@+id/viewBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <Button android:id="@+id/editEntryBtn" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="edit"/>
+        <Button android:id="@+id/deleteEntryBtn" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="delete"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

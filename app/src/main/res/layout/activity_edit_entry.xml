@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@+id/titleInput" android:hint="title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/bodyInput" android:hint="what happened?" android:layout_width="match_parent" android:layout_height="200dp" android:gravity="top" android:inputType="textMultiLine"/>
+    <ImageView android:id="@+id/imagePreview" android:layout_width="match_parent" android:layout_height="200dp" android:scaleType="centerCrop"/>
+    <TextView android:id="@+id/locationText" android:text="Location: " android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/pickImageBtn" android:text="add a picture" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/getLocationBtn" android:text="use my location" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/saveEntryBtn" android:text="save" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
