@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.myquill.app-mergeDebugResources-41:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ethan\\.gradle\\caches\\9.0-milestone-1\\transforms\\d3b5bb9fc27276743600f7379d99ab7e\\transformed\\appcompat-1.7.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

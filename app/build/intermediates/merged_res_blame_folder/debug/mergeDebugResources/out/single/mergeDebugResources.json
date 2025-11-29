@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "com.myquill.app-debug-43:/xml_file_paths.xml.flat",
+        "source": "com.myquill.app-main-45:/xml/file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_map_select.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_map_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_friends.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\drawable_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\drawable\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_item_entry.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\item_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\drawable_bg_button_secondary.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\drawable\\bg_button_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_edit_entry.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_edit_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\layout_activity_view_entry.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\layout\\activity_view_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-debug-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Ethan\\.gradle\\daemon\\9.0-milestone-1\\com.myquill.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

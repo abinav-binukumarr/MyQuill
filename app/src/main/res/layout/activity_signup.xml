@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create your account"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start saving your days and memories."
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/firstInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="first name"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/lastInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="last name"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/usernameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="username"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/passInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:layout_marginBottom="20dp"/>
+
+            <com.myquill.app.SoundButton
+                android:id="@+id/signupBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_button_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <com.myquill.app.SoundButton
+                android:id="@+id/goLoginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back to login"
+                android:textColor="@color/accent_secondary"
+                android:background="@drawable/bg_button_secondary"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

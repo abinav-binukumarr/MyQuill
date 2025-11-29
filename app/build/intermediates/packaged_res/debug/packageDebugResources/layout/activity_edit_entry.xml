@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/titleInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="title"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/bodyInput"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="top"
+                android:hint="what happened today?"
+                android:inputType="textMultiLine"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:backgroundTint="@color/accent_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <ImageView
+                android:id="@+id/imagePreview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <com.myquill.app.SoundButton
+                    android:id="@+id/pickImageBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Add picture"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:background="@drawable/bg_button_secondary"/>
+
+                <com.myquill.app.SoundButton
+                    android:id="@+id/removeImageBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Remove picture"
+                    android:textSize="12sp"
+                    android:textColor="@color/accent_secondary"
+                    android:background="@drawable/bg_button_secondary"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location: unavailable"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <com.myquill.app.SoundButton
+                    android:id="@+id/chooseOnMapBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Choose on map"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:background="@drawable/bg_button_secondary"
+                    android:layout_marginEnd="4dp"/>
+
+                <com.myquill.app.SoundButton
+                    android:id="@+id/getLocationBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Use current location"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_primary"
+                    android:background="@drawable/bg_button_secondary"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/companionsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="With: nobody"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <com.myquill.app.SoundButton
+                android:id="@+id/pickFriendsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add friends"
+                android:textSize="12sp"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_button_secondary"
+                android:layout_marginBottom="16dp"/>
+
+            <com.myquill.app.SoundButton
+                android:id="@+id/saveEntryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save entry"
+                android:textSize="14sp"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_button_primary"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

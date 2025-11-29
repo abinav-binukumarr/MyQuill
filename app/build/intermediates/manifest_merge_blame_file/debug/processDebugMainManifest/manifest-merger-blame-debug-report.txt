@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myquill.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+13-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:6:5-76
+13-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission
+14-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:7:5-9:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:8:9-64
+16        android:maxSdkVersion="32" />
+16-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:9:9-35
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:10:5-65
+17-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:10:22-62
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:22-64
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <permission
+33-->[androidx.core:core:1.13.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\db4f759a19deca75ee951261df07061d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+34        android:name="com.myquill.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.13.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\db4f759a19deca75ee951261df07061d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.13.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\db4f759a19deca75ee951261df07061d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.myquill.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.13.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\db4f759a19deca75ee951261df07061d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.13.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\db4f759a19deca75ee951261df07061d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:12:5-50:19
+40        android:name="com.myquill.app.MyApplication"
+40-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:13:9-38
+41        android:allowBackup="true"
+41-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:15:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.13.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\db4f759a19deca75ee951261df07061d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="false"
+45        android:icon="@mipmap/ic_launcher"
+45-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:16:9-43
+46        android:label="@string/app_name"
+46-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:17:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:18:9-54
+48        android:supportsRtl="true"
+48-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:19:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.MyQuill"
+50-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:20:9-45
+51        android:usesCleartextTraffic="true" >
+51-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:14:9-44
+52        <provider
+53            android:name="androidx.core.content.FileProvider"
+53-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:23:13-62
+54            android:authorities="com.myquill.app.fileprovider"
+54-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:24:13-64
+55            android:exported="false"
+55-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:25:13-37
+56            android:grantUriPermissions="true" >
+56-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:26:13-47
+57            <meta-data
+57-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:27:13-29:54
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:28:17-67
+59                android:resource="@xml/file_paths" />
+59-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:29:17-51
+60        </provider>
+61
+62        <meta-data
+62-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:32:9-34:71
+63            android:name="com.google.android.geo.API_KEY"
+63-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:33:13-58
+64            android:value="AIzaSyA7nqLnJwUjg1_Ob7JyxnEAj80sYQNWbDM" />
+64-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:34:13-68
+65
+66        <activity android:name="com.myquill.app.ViewEntryActivity" />
+66-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:36:9-55
+66-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:36:19-52
+67        <activity android:name="com.myquill.app.MapSelectActivity" />
+67-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:37:9-55
+67-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:37:19-52
+68        <activity android:name="com.myquill.app.EditEntryActivity" />
+68-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:38:9-55
+68-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:38:19-52
+69        <activity android:name="com.myquill.app.SignupActivity" />
+69-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:39:9-52
+69-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:39:19-49
+70        <activity android:name="com.myquill.app.HomeActivity" />
+70-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:40:9-50
+70-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:40:19-47
+71        <activity android:name="com.myquill.app.ProfileActivity" />
+71-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:41:9-53
+71-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:41:19-50
+72        <activity android:name="com.myquill.app.FriendsActivity" />
+72-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:42:9-53
+72-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:42:19-50
+73        <activity
+73-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:44:9-49:20
+74            android:name="com.myquill.app.LoginActivity"
+74-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:44:19-48
+75            android:exported="true" >
+75-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:44:49-72
+76            <intent-filter>
+76-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:45:13-48:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:46:17-69
+77-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:46:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:47:17-77
+79-->C:\Users\Ethan\OneDrive\Desktop\Non School\MobileThing\MyQuill\app\src\main\AndroidManifest.xml:47:27-74
+80            </intent-filter>
+81        </activity>
+82        <!-- Needs to be explicitly declared on P+ -->
+83        <uses-library
+83-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+84            android:name="org.apache.http.legacy"
+84-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+85            android:required="false" />
+85-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\b9e3ec05fd02a7b09d2fcdd4b1a06d39\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\5998f9923076389479245f4b9775afe9\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\5998f9923076389479245f4b9775afe9\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\5998f9923076389479245f4b9775afe9\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\5998f9923076389479245f4b9775afe9\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\f68b5251dd0970f64292982b2fa34aa1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\f68b5251dd0970f64292982b2fa34aa1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\f68b5251dd0970f64292982b2fa34aa1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+98            android:authorities="com.myquill.app.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\2be75a674272442a3b27a608d146d187\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\e1110d7cd3216e1809120bb5964b4615\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\e1110d7cd3216e1809120bb5964b4615\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\e1110d7cd3216e1809120bb5964b4615\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <service
+111-->[androidx.room:room-runtime:2.6.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\24409efa5e9bf8c39f88f2f2b75803fd\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+112            android:name="androidx.room.MultiInstanceInvalidationService"
+112-->[androidx.room:room-runtime:2.6.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\24409efa5e9bf8c39f88f2f2b75803fd\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+113            android:directBootAware="true"
+113-->[androidx.room:room-runtime:2.6.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\24409efa5e9bf8c39f88f2f2b75803fd\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+114            android:exported="false" />
+114-->[androidx.room:room-runtime:2.6.1] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\24409efa5e9bf8c39f88f2f2b75803fd\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+115
+116        <receiver
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+117            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+118            android:directBootAware="false"
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+119            android:enabled="true"
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+120            android:exported="true"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+121            android:permission="android.permission.DUMP" >
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+123                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+126                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+129                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+132                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Ethan\.gradle\caches\9.0-milestone-1\transforms\9168c611b4727a1b0a805d7e73988bef\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+133            </intent-filter>
+134        </receiver>
+135    </application>
+136
+137</manifest>
